@@ -44,3 +44,51 @@ nav ul li button.active:hover {
   background: var(--clr-dark);
   color: var(--clr-light);
 }
+
+/* PALINDROME */
+.palindrome-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 3rem;
+  background: #fff;
+}
+
+.palindrome-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  outline-color: #3d90a4;
+}
+
+.palindrome-title {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #3d90a4;
+  text-align: center;
+  line-height: 1;
+}
+
+.palindrome-result {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 580px) {
+  .palindrome-title {
+    font-size: 3rem;
+  }
+  .palindrome-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .palindrome-result {
+    font-size: 1.5rem;
+  }
+}

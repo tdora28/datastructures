@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Header from './components/Header.jsx';
+import Palindrome from './apps/Palindrome.jsx';
 
 function App() {
   const [pages, setPages] = useState([
@@ -31,10 +32,22 @@ function App() {
     setPages([...updateArr]);
   };
 
+  const showActivePage = () => {
+    let activePage = pages.find((el) => el.active).name;
+    switch (activePage) {
+      case 'Palindrome':
+        return <Palindrome />;
+        break;
+
+      default:
+        break;
+    }
+  };
+
   return (
     <>
       <Header pages={pages} changeActivePage={changeActivePage} />
-      <section></section>
+      <>{showActivePage()}</>
     </>
   );
 }
