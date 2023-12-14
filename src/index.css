@@ -119,24 +119,24 @@ nav ul li button.active:hover {
 
 /* BUBBLE SORT */
 .bubble-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   width: 95%;
   max-width: 800px;
-  background: #fcfcfc;
 }
-
 .bubble-main > * {
   width: 100%;
   padding: 1rem 2rem;
-  border: 1px solid #a5a4a4;
+  border: 1px solid #783636;
+  border-radius: 20px;
 }
-
 .bubble-title {
-  margin-bottom: 2rem;
   font-size: 3rem;
+  color: #783636;
   text-align: center;
   text-transform: uppercase;
 }
-
 .bubble-form {
   display: flex;
   flex-direction: column;
@@ -150,10 +150,11 @@ nav ul li button.active:hover {
 }
 .bubble-form button {
   padding: 0.5rem 1rem;
-  background: #474747;
+  border: none;
+  background: #783636;
   color: #fff;
+  text-transform: uppercase;
 }
-
 .bubble-array-box {
   text-align: center;
 }
@@ -165,14 +166,12 @@ nav ul li button.active:hover {
 .bubble-array-box p {
   font-size: 2rem;
 }
-
 .bubble-btn-long {
   font-size: 1.2rem;
   font-weight: 600;
-  background: #474747;
+  background: #783636;
   color: #fff;
 }
-
 .bubble-form button:hover,
 .bubble-btn-long:hover {
   box-shadow: inset 0 0 0 1500px rgba(255, 255, 255, 0.2);

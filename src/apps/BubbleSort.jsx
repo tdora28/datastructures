@@ -48,7 +48,7 @@ function BubbleSort() {
 
   return (
     <main className="bubble-main">
-      <h1 className="bubble-title">Simple Sorting</h1>
+      <h1 className="bubble-title">Bubble Sort</h1>
       <form className="bubble-form">
         <label htmlFor="arrayElement">Type a number:</label>
         <input type="number" id="arrayItem" value={itemInput} onChange={changeValue} onSubmit={addToArr} />
