@@ -186,8 +186,10 @@ nav ul li button.active:hover {
 
 /* STACK */
 .stack-main {
+  width: 90%;
+  max-width: 700px;
   margin: 2rem 1rem;
-  padding: 2rem;
+  padding: 4rem 3rem;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -199,7 +201,7 @@ nav ul li button.active:hover {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin: 2rem 0;
+  margin: 3rem 0 5rem;
 }
 .stack-button {
   width: 40%;
@@ -236,6 +238,8 @@ nav ul li button.active:hover {
     'top top'
     'left right';
   width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 .stack-table-top {
   grid-area: top;
