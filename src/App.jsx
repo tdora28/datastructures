@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from './components/Header.jsx';
 import Palindrome from './apps/Palindrome.jsx';
 import BubbleSort from './apps/BubbleSort.jsx';
+import Stack from './apps/Stack.jsx';
 
 function App() {
   const [pages, setPages] = useState([
@@ -41,6 +42,9 @@ function App() {
         break;
       case 'Bubble Sort':
         return <BubbleSort />;
+        break;
+      case 'Stack':
+        return <Stack />;
         break;
 
       default:
