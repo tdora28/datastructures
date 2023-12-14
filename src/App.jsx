@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
 import Palindrome from './apps/Palindrome.jsx';
 import BubbleSort from './apps/BubbleSort.jsx';
 import Stack from './apps/Stack.jsx';
@@ -55,6 +56,7 @@ function App() {
     <>
       <Header pages={pages} changeActivePage={changeActivePage} />
       <>{showActivePage()}</>
+      <Footer />
     </>
   );
 }

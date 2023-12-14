@@ -23,6 +23,7 @@
 body {
   background: var(--clr-light);
   font-family: var(--font-base);
+  color: var(--clr-dark);
 }
 
 h1 {
@@ -227,4 +228,10 @@ nav ul li button.active:hover {
 }
 .stack-table-leg.right {
   right: 5px;
+}
+
+/* FOOTER */
+footer {
+  margin-bottom: 1rem;
+  text-align: center;
 }
