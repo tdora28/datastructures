@@ -31,13 +31,13 @@ function Stack() {
   }
 
   return (
-    <main>
-      <h1>Simple Stack DS App</h1>
-      <div className="operations">
-        <button className="button" onClick={() => stackHandler('add')}>
+    <main className="stack-main">
+      <h1 className="stack-title">Simple Stack DS App</h1>
+      <div className="stack-operations">
+        <button className="stack-button" onClick={() => stackHandler('add')}>
           Add
         </button>
-        <button className="button" onClick={() => stackHandler('remove')}>
+        <button className="stack-button" onClick={() => stackHandler('remove')}>
           Remove
         </button>
       </div>
