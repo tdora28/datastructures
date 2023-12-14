@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import Header from './components/Header.jsx';
 import Palindrome from './apps/Palindrome.jsx';
+import BubbleSort from './apps/BubbleSort.jsx';
 
 function App() {
   const [pages, setPages] = useState([
@@ -37,6 +38,9 @@ function App() {
     switch (activePage) {
       case 'Palindrome':
         return <Palindrome />;
+        break;
+      case 'Bubble Sort':
+        return <BubbleSort />;
         break;
 
       default:
