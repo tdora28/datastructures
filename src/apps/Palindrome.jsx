@@ -24,13 +24,11 @@ function Palindrome() {
   };
 
   return (
-    <>
-      <main className="palindrome-main">
-        <h1 className="palindrome-title">Palindrome Checker</h1>
-        <input className="palindrome-input" type="text" id="userInput" value={userInput} placeholder="Type here..." onChange={(e) => setUserInput(e.target.value)} />
-        <div className="palindrome-result">{checkPalindrome(userInput)}</div>
-      </main>
-    </>
+    <main className="palindrome-main">
+      <h1 className="palindrome-title">Palindrome Checker</h1>
+      <input className="palindrome-input" type="text" id="userInput" value={userInput} placeholder="Type here..." onChange={(e) => setUserInput(e.target.value)} />
+      <div className="palindrome-result">{checkPalindrome(userInput)}</div>
+    </main>
   );
 }
 

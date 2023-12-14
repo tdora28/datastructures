@@ -46,7 +46,6 @@ function App() {
       case 'Stack':
         return <Stack />;
         break;
-
       default:
         break;
     }
