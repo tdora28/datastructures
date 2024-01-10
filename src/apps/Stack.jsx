@@ -13,6 +13,8 @@ function Stack() {
     if (operation === 'add') {
       if (newArr.length === 0) {
         newArr = [0];
+      } else if (newArr.length === 11) {
+        alert("You've reached the limit! Can't fit more on the stack.");
       } else {
         newArr.push(newArr.length);
       }
